@@ -1,0 +1,14 @@
+# RE-DEMO 依赖包
+
+# 核心依赖
+openai>=1.0.0
+asyncio
+
+# 数据处理
+python-dateutil
+
+# 开发工具
+pytest
+pytest-asyncio
+black
+flake8
