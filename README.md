@@ -12,22 +12,12 @@
 1. 各类配置在 **[src/config.py](src/config.py)** 中
 2. 所有提示词在 **[src/prompts.py](src/prompts.py)** 中
 
-## 3. 项目文件概览
-
-- `README.md`：运行说明、依赖安装与使用方式。
-- `main.py`：程序入口，负责初始化各智能体并提供命令行交互。
-- `requirements.txt`：列出所需 Python 依赖包。
-- `src/`：核心源代码目录，包含 agents/api/models/storage/utils 等子模块。
-- `personas/`：存放生成的人格数据与历史记录。
-- `BriefIntroduction.md`：当前文档，速览项目结构与核心概念。
-
-## 4. 项目结构示意
+## 3. 项目结构示意
 
 ```
 redemo/
-├─ README.md                # 运行说明与操作指南
-├─ BriefIntroduction.md     # 核心概念、结构速览
-├─ arch.md                  # 深度架构文档
+├─ README.md                # 项目简介
+├─ arch.md                  # 项目规划文档
 ├─ main.py                  # 程序入口与交互逻辑
 ├─ requirements.txt         # Python 依赖列表
 ├─ personas/                # 人格数据与历史记录
